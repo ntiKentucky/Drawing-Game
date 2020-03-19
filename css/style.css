@@ -119,3 +119,21 @@ button {
     font-size: 25px;
     left: -50;
 }
+
+.height {
+    position: relative;
+    text-align: center;
+    align-items: baseline;
+    top: -70px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.bg2 .height2 {
+    position: relative;
+    text-align: center;
+    align-items: baseline;
+    top: 50px;
+    font-size: 25px;
+    left: -50;
+}
