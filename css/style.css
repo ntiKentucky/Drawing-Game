@@ -94,23 +94,7 @@ a {
     font-size: 40PX;
 }
 
-#genderbox {
-    margin: 30px auto 0;
-    display: block;
-    width: 300px;
-    height: 40px;
-    outline: none;
-    border: none;
-    width: auto;
-    font-size: 30px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 50px;
-    color: #badfdb;
-    transition: linear;
-}
-
-#button {
+button {
     border-radius: 50px;
     padding: 2vh 5vh 2vh 5vh;
     outline: none;
@@ -119,15 +103,19 @@ a {
     height: 10vh;
     font-size: 28px;
     letter-spacing: 30px;
-    opacity: 0.7;
-    position: relative;
-    align-items: center;
-    text-align: center;
     text-decoration: none;
-    background-color: #ffffff;
-    color: #fff;
-    right: 10px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     margin: 80px;
-    text-transform: lowercase;
+    background-color: #badfdb;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.bg2 .gender {
+    position: relative;
+    text-align: center;
+    align-items: baseline;
+    top: 50px;
+    font-size: 25px;
+    left: -50;
 }
